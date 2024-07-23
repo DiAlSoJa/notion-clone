@@ -32,6 +32,7 @@ interface IconPickerProps {
             <EmojiPicker
                 height={350}
                 theme={theme}
+                //@ts-ignore
                 onEmojiClick={(data) => onChange(data.emoji)}
             />
         </PopoverContent>

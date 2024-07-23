@@ -29,7 +29,7 @@ export const UserItem = () => {
                 <AvatarImage src={user?.imageUrl}></AvatarImage>
             </Avatar>
             <span className='text-start font-medium line-clamp-1'>
-                {user?.fullName}'s Jotion
+                {user?.fullName}&apos;s Jotion
             </span>
           </div>
           <ChevronsLeftRight className='rotate-90 ml-2 text-muted-foreground h-4 w-4'/>
